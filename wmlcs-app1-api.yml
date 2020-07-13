@@ -1,17 +1,5 @@
 env: none
 configSource: "WMLCS-App-1-Base"
-serilog:
-  logging:
-    level: debug
-management:
-  endpoints:
-    actuator:
-      exposure:
-        include: ["*"]
-    health:
-      showdetails: always
-      enabled: true
-ASPNETCORE_ENVIRONMENT: "Development"
 features:
   enabled: 
     - feature_1
