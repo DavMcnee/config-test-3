@@ -1,0 +1,7 @@
+env: int
+configSource: "WMPLAT-App-2-IntEnv"
+features:
+  disabled:
+    - features_99
+    - feature_1
+    - feature_2

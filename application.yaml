@@ -1,0 +1,12 @@
+serilog:
+  logging:
+    level: debug
+management:
+  endpoints:
+    actuator:
+      exposure:
+        include: ["*"]
+    health:
+      showdetails: always
+      enabled: true
+ASPNETCORE_ENVIRONMENT: "Development"
